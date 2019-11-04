@@ -1,0 +1,26 @@
+name: gap_al
+channels:
+- defaults
+- conda-forge
+dependencies:
+- ase
+- mdtraj 
+- hdbscan
+- numpy
+- ipython
+- jupyter
+- matplotlib
+- numpy
+- pandas
+- scipy
+- seaborn
+- scikit-learn
+- argparse
+- json
+- os 
+- subprocess
+- pprint
+- copy
+- random
+- pip:
+  - gpyopt

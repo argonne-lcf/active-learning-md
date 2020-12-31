@@ -77,7 +77,7 @@ class activesample:
         n_noise_ (int) : Total number of noise points
         clustdict (dict) : Cluster number keys. List values of AIMD trajectory index
         """
-        hdb = HDBSCAN(min_samples=self.nsample, min_cluster_size=self.nminclust).fit(self.distances) # allow_single_cluster=True
+        hdb = HDBSCAN(metric='precomputed', min_samples=self.nsample, min_cluster_size=self.nminclust).fit(self.distances) # allow_single_cluster=True
         labels = hdb.labels_
         n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
         n_noise_ = list(labels).count(-1)

@@ -2,17 +2,19 @@
 
 Documentation for the active learning workflow developed as a part of the article "Machine Learning Inter-Atomic Potentials Generation Driven by Active Learning: 
 A Case Study for Amorphous and Liquid Hafnium dioxide". 
-__For more details, please refer to the [paper](https://arxiv.org/abs/1910.10254).__
+__For more details, please refer to the [paper](https://www.nature.com/articles/s41524-020-00367-7).__
 
 If you are using this active learning workflow  in your research paper, please cite us as
 ```
-@misc{sivaraman2019machine,
-    title={Machine Learning Inter-Atomic Potentials Generation Driven by Active Learning: A Case Study for Amorphous and Liquid Hafnium dioxide},
-    author={Ganesh Sivaraman and Anand Narayanan Krishnamoorthy and Matthias Baur and Christian Holm and Marius Stan and Gabor Csányi and Chris Benmore and Álvaro Vázquez-Mayagoitia},
-    year={2019},
-    eprint={1910.10254},
-    archivePrefix={arXiv},
-    primaryClass={cond-mat.mtrl-sci}
+@article{sivaraman2020machine,
+  title={Machine-learned interatomic potentials by active learning: amorphous and liquid hafnium dioxide},
+  author={Sivaraman, Ganesh and Krishnamoorthy, Anand Narayanan and Baur, Matthias and Holm, Christian and Stan, Marius and Cs{\'a}nyi, G{\'a}bor and Benmore, Chris and V{\'a}zquez-Mayagoitia, {\'A}lvaro},
+  journal={npj Computational Materials},
+  volume={6},
+  number={1},
+  pages={1--8},
+  year={2020},
+  publisher={Nature Publishing Group}
 }
 ```
 
